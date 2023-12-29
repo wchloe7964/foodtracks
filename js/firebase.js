@@ -1,12 +1,12 @@
 // Initialize Firebase
 const firebaseConfig = {
-  apiKey: "AIzaSyD5oJJTGvJBTzQGH2v18GSZ99833GuT8oE",
-  authDomain: "foodgeemix.firebaseapp.com",
-  databaseURL: "https://foodgeemix-default-rtdb.firebaseio.com",
-  projectId: "foodgeemix",
-  storageBucket: "foodgeemix.appspot.com",
-  messagingSenderId: "216570659600",
-  appId: "1:216570659600:web:2b8f2340a6acef2b8d1b95"
+apiKey: "AIzaSyB2L07Esi6cYE6opcqZF2VSUu0HpA4n5pQ",
+authDomain: "foodtracksco.firebaseapp.com",
+databaseURL: "https://foodtracksco-default-rtdb.firebaseio.com",
+projectId: "foodtracksco",
+storageBucket: "foodtracksco.appspot.com",
+messagingSenderId: "952224657340",
+appId: "1:952224657340:web:8d83b8dc3491a7d0ad05b9"
 };
 firebase.initializeApp(firebaseConfig);
 const appCheck = firebase.appCheck();
